@@ -162,4 +162,5 @@ def cultural_algorithm(G: nx.Graph, pop_size: int = 50, max_gen: int = 100,
             coloring_list = [coloring_dict[i] for i in range(len(coloring_dict))]
             return True, coloring_list, k_found, 0, []
         else:
+
             return False, [], 0, 0, []
